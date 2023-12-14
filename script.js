@@ -15,18 +15,18 @@ function getQuote() {
   document.getElementById("author").textContent = currentAuthor;
 
   const colors = [
-    "#16a085",
-    "#27ae60",
-    "#2c3e50",
-    "#f39c12",
-    "#e74c3c",
-    "#9b59b6",
-    "#FB6964",
-    "#342224",
-    "#472E32",
-    "#BDBB99",
-    "#77B1A9",
-    "#73A857",
+    "#88AB8E",
+    "#9BB8CD",
+    "#FF90BC",
+    "#7ED7C1",
+    "#DC8686",
+    "#776B5D",
+    "#F9B572",
+    "#BEADFA",
+    "#FF8080",
+    "#ECEE81",
+    "#116A7B",
+    "#867070",
   ];
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   document.body.style.backgroundColor = randomColor;

@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   list-style: none;
   vertical-align: baseline;
 }
@@ -85,15 +86,14 @@ body {
 #quote-box .buttons .button:hover {
   opacity: 0.9;
 }
-#quote-box .buttons .button#tweet-quote,
-#quote-box .buttons .button#tumblr-quote {
+#quote-box .buttons .button#github-quote,
+#quote-box .buttons .button#instagram-quote {
   float: left;
   padding: 0px;
   padding-top: 8px;
   text-align: center;
   font-size: 1.2em;
   margin-right: 5px;
-  height: 30px;
   width: 40px;
 }
 #quote-box .buttons .button#new-quote {
